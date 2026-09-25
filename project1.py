@@ -49,8 +49,18 @@ def main():
         print ("\nHim: I would've been a good party clown. You'll regret this...")
         time.sleep(3)
     else: 
-      print("\nYOU LOSE")
-      time.sleep(1)
+        print("*The clown goes into your house*")
+        time.sleep(3)
+        print("Everyone soon comes running out")
+        time.sleep(3)
+        ("The clown scared everyone and now your party is over")
+        print("\nYOU LOSE")
+        time.sleep(1)
+        restart=input("\nWould you like to try again?")
+        if restart == "yes":
+                  main()
+        else:
+            exit()
     time.sleep(2)
     print("\nYou stay at the door waiting for more people to come\n")
     time.sleep(3.5)
